@@ -1,0 +1,44 @@
+{
+    contentGroup: 'STMPD200',                                                                                           --> publisher: 'STMPD RCRDS',
+    initialKey: 'F',                                                                                                    --> initialKey: 'Fmaj',
+    encodingTechnology: 'Lavf58.29.100',                                                                                --> encodedBy: 'Beatport',
+    fileUrl: '\x03http://www.beatport.com/track/20-and-lost-feat-elvira-original-mix/12371792',                         ++++From beatport
+    publisherUrl: '\x03http://www.beatport.com/label/stmpd-rcrds/56009',                                                ++++From beatport
+    year: '2019',                                                                                                       ++++
+    comment: { language: 'eng', shortText: '', text: 'Purchased at Beatport.com' },                                     ++++
+    userDefinedText: [ { description: 'original release date', value: '2019-08-02' } ],                                 ++++
+    image: { description: undefined },                                                                                  --> change from apple music
+    performerInfo: 'Elvira, Osrin',                                                                                     ----
+    originalArtist: 'Elvira, Osrin',                                                                                    ----
+    raw: {
+        TIT1: 'STMPD200',                                                                                               --> TIT1: 'STMPD RCRDS',
+        TSRC: 'NLM5S1900615',                                                                                           ++++
+        TENC: 'Beatport',                                                                                               ++++
+        TKEY: 'F',                                                                                                      --> TKEY: 'Fmaj',
+        WOAF: '\x03http://www.beatport.com/track/20-and-lost-feat-elvira-original-mix/12371792',                        ++++
+        WPUB: '\x03http://www.beatport.com/label/stmpd-rcrds/56009',                                                    ++++
+        TYER: '2019',                                                                                                   ++++
+        TPE2: 'Elvira, Osrin',                                                                                          ----
+        TOPE: 'Elvira, Osrin',                                                                                          ----
+        TSSE: 'Lavf58.29.100',                                                                                          ----
+        TXXX: [ { description: 'original release date', value: '2019-08-02' } ]                                         ----
+        APIC: {description: undefined,}
+    }
+}
+
+{
+  ALBUM: [ '20 and Lost' ],
+  ALBUMARTIST: [ 'Elvira, Osrin' ],
+  ARTIST: [ 'Elvira, Osrin' ],
+  BPM: [ '115' ],
+  CONTENTGROUP: [ 'STMPD200' ],
+  DATE: [ '2019-08-02' ],
+  ENCODING: [ 'Lavf58.29.100' ],
+  GENRE: [ 'Dance' ],
+  INITIALKEY: [ 'Fmaj' ],
+  LABEL: [ 'STMPD RCRDS' ],
+  ORIGINALARTIST: [ 'Elvira, Osrin' ],
+  ORIGINALDATE: [ '2019-08-02' ],
+  TITLE: [ '20 and Lost feat. ELVIRA (Original Mix)' ],
+  TRACKNUMBER: [ '1' ]
+}

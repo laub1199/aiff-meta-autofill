@@ -1,0 +1,14 @@
+{
+  "name": "aiff-meta-autofill",
+  "version": "1.0.0",
+  "description": "Modify to Beatport like metadata application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sennett Lau",
+  "license": "ISC",
+  "dependencies": {
+    "taglib3": "^3.0.11"
+  }
+}
