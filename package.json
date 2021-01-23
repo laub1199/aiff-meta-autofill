@@ -9,6 +9,7 @@
   "author": "Sennett Lau",
   "license": "ISC",
   "dependencies": {
+    "puppeteer": "^5.5.0",
     "taglib3": "^3.0.11"
   }
 }
