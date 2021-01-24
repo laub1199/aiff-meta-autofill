@@ -19,9 +19,11 @@ const getMetaDataFromBeatport =  async (songTitle, songLabel, songDate) => {
             if (label === song.songLabel && data === song.songDate) {
                 let songUrl = document.querySelector('ul.bucket-items.ec-bucket li:nth-child(' + i + ') .buk-track-title a').href
                 let labelUrl = document.querySelector('ul.bucket-items.ec-bucket li:nth-child(' + i + ') .buk-track-labels a').href
+                let trackBeatportID = songUrl.split('/')[5]
                 return {
                     songUrl,
-                    labelUrl
+                    labelUrl,
+                    trackBeatportID
                 }
             }
         }
@@ -37,7 +39,8 @@ const getMetaDataFromBeatport =  async (songTitle, songLabel, songDate) => {
     const data = {
         FILEWEBPAGE: '\x03http://' + targetAudioUrlData.songUrl.split('ttps://')[1],
         PUBLISHERWEBPAGE: '\x03http://' + targetAudioUrlData.labelUrl.split('ttps://')[1],
-        INITIALKEY
+        INITIALKEY,
+        trackBeatportID: targetAudioUrlData.trackBeatportID
     }
 
     return data
