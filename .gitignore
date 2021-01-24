@@ -1,5 +1,4 @@
-./node_modules
-./.idea
-./package-lock.json
-./final
-./original
+/.idea/
+/original/
+/node_modules/
+/final/
